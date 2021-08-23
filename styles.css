@@ -73,13 +73,16 @@ img {
 
 /* =================== FOOTER STYLES ====================== */
 footer {
-  background-color: grey;
+  background-color: rgb(196, 193, 193);
+  color: black;
+  display: flex;
 }
 
 footer div {
   display: flex;
-  width: 80vw;
   padding-bottom: 70px;
+  height: 250px;
+  list-style: none;
 }
 
 .footerList1 {
@@ -88,14 +91,22 @@ footer div {
 
 .footerList1 li {
   list-style: none;
-  margin: 5px 0;
 }
 
 .footerList1 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .footerList1 a:hover {
   text-decoration: underline;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+}
+
+.footerImg {
+  overflow: hidden;
 }
