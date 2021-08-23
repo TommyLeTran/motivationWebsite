@@ -72,3 +72,30 @@ img {
 }
 
 /* =================== FOOTER STYLES ====================== */
+footer {
+  background-color: grey;
+}
+
+footer div {
+  display: flex;
+  width: 80vw;
+  padding-bottom: 70px;
+}
+
+.footerList1 {
+  margin-top: 30px;
+}
+
+.footerList1 li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.footerList1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerList1 a:hover {
+  text-decoration: underline;
+}
