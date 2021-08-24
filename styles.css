@@ -85,18 +85,15 @@ h2 {
 footer {
   background-color: rgb(196, 193, 193);
   color: black;
-  display: flex;
-}
-
-footer div {
-  display: flex;
-  padding-bottom: 70px;
-  height: 250px;
-  list-style: none;
 }
 
 .footerList1 {
   margin: 30px 100px 0 0;
+  margin-bottom: 50px;
+}
+
+.footerList1 {
+  padding-left: 0;
 }
 
 .footerList1 li {
@@ -112,20 +109,22 @@ footer div {
   text-decoration: underline;
 }
 
-.socials {
+.try {
+  width: 75vw;
   display: flex;
-  flex-direction: column;
-  width: 170px;
 }
 
 .socials img {
-  width: 30px;
   height: 30px;
-  margin: 5px;
+  width: 30px;
 }
 
 .socials li {
   list-style: none;
-  display: inline-block;
-  justify-content: space-around;
+  margin: 5px 5px 0 5px;
+}
+
+.socials ul {
+  display: flex;
+  padding: 0;
 }
