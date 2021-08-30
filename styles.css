@@ -77,7 +77,7 @@ h2 {
 .multiple img {
   width: 40vw;
   height: 400px;
-  /* float: left; */
+  float: left;
   margin: 0 15px 30px 0;
 }
 
@@ -130,10 +130,12 @@ footer {
 }
 
 /* =================== RESPONSIVE DESIGN ====================== */
+/* Styles below are for tablet users*/
+
 @media screen and (max-width:850px) {
   .multiple img {
-    width: 40vw;
-    height: 300px;
+    width: 100vw;
+    height: 350px;
     /* float: left; */
     margin: 0 15px 30px 0;
   }
@@ -142,4 +144,53 @@ footer {
     display: flex;
     justify-content: center;
   }
+}
+
+/* Styles below are for smartphone users*/
+@media screen and (max-width:415px) {
+  .cover img {
+    height: 300px;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  h2 {
+    top: 35%;
+    font-size: 25px;
+  }
+  
+  .intro {
+    width: 80vw;
+  }
+}
+
+.multiple {
+  margin-bottom: 50px;
+}
+
+.footerList1 li a {
+  display: flex;
+  justify-self: center;
+}
+
+.try {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.try ul {
+  width: 100%;
+}
+
+.footerList1 a {
+  display: flex;
+  justify-content: center;
+}
+
+.socials {
+  padding-bottom: 20px;
 }
