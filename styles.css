@@ -33,13 +33,17 @@ nav ul {
 
 .navList li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 15px 20px;
   text-decoration: none;
 }
 
 .navList a {
   text-decoration: none;
   color: black;
+}
+
+.navList li:hover {
+  background-color: grey;
 }
 
 .cover {
@@ -71,8 +75,14 @@ h2 {
   margin-bottom: 150px;
 }
 
-.intro p {
-  margin-top: 10px;
+h3 {
+  margin-bottom: 15px;
+  justify-content: center;
+  display: flex;
+}
+
+.para {
+  display: flex;
 }
 
 .multiple {
@@ -174,13 +184,16 @@ footer {
 @media screen and (max-width: 425px) {
   body {
   }
+  .navList {
+    display: none;
+  }
 
   .cover img {
     height: 300px;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 100px;
   }
 
   h2 {
