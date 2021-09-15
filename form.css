@@ -1,0 +1,15 @@
+body {
+  background-color: #202129;
+}
+
+h1 {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+input {
+  margin-left: 100px;
+}
