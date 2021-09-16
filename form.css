@@ -1,15 +1,55 @@
 body {
   background-color: #202129;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin: auto;
+  height: 600px;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 300px;
 }
 
 h1 {
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 label {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
   color: white;
 }
 
 input {
   margin-left: 100px;
+  margin: 15px 0;
+}
+
+textarea {
+  resize: none;
+  height: 300px;
+  width: 500px;
+  margin: auto;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+button {
+  padding: 20px;
+  margin: auto;
 }
