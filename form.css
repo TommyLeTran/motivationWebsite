@@ -1,6 +1,7 @@
 body {
   background-color: #202129;
   box-sizing: border-box;
+  margin-top: 100px;
 }
 
 form {
@@ -37,6 +38,17 @@ input {
   margin: 15px 0;
 }
 
+.gender {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.gender label {
+  margin: auto;
+}
+
 textarea {
   resize: none;
   height: 300px;
@@ -44,9 +56,9 @@ textarea {
   margin: auto;
 }
 
-input,
 textarea {
   outline: none;
+  margin: 15px 0;
 }
 
 button {
