@@ -31,6 +31,11 @@ nav ul {
   margin-right: 0;
 }
 
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
 .navList li {
   display: inline-block;
   padding: 15px 20px;

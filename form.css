@@ -1,7 +1,6 @@
 body {
   background-color: #202129;
   box-sizing: border-box;
-  margin-top: 100px;
 }
 
 form {
@@ -9,7 +8,6 @@ form {
   flex-direction: column;
   justify-content: center;
   width: 500px;
-  margin: auto;
   height: 600px;
 }
 
@@ -20,7 +18,8 @@ form div {
   width: 300px;
 }
 
-h1 {
+.form-title {
+  margin: 50px 0;
   color: white;
   display: flex;
   justify-content: center;
