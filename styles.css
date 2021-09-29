@@ -199,8 +199,16 @@ footer {
     display: flex none;
     flex-direction: column;
     margin: auto;
-    height: 70vh;
+    height: 35vh;
     padding: 0;
+    transform: transition 0.3s ease;
+    margin-top: 25px;
+  }
+
+  .navList li {
+    padding: 0;
+    margin: 25px 0;
+    display: flex;
   }
 
   nav h1 {
@@ -212,7 +220,7 @@ footer {
   }
 
   .burger {
-    margin: 25px 0 0;
+    margin: 25px 0;
     display: block;
   }
 
@@ -293,4 +301,8 @@ footer {
     flex-direction: row;
     justify-content: center;
   }
+}
+
+.nav-active {
+  display: flex;
 }
