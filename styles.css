@@ -36,6 +36,10 @@ nav a {
   color: black;
 }
 
+.burger {
+  display: none;
+}
+
 .navList li {
   display: inline-block;
   padding: 15px 20px;
@@ -187,10 +191,50 @@ footer {
 
 /* Styles below are for smartphone users*/
 @media screen and (max-width: 425px) {
-  body {
+  nav {
+    display: flex;
+    flex-direction: column;
   }
   .navList {
+    display: flex none;
+    flex-direction: column;
+    margin: auto;
+    height: 70vh;
+    padding: 0;
+  }
+
+  nav h1 {
+    margin: auto;
+  }
+
+  nav ul {
     display: none;
+  }
+
+  .burger {
+    margin: 25px 0 0;
+    display: block;
+  }
+
+  .burger div {
+    background-color: black;
+    width: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 2px;
+    margin-bottom: 3px;
+    transition: transform 0.5s ease;
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-2px, 5px);
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-2px, -5px);
   }
 
   .cover img {
