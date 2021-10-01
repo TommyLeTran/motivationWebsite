@@ -40,6 +40,10 @@ nav a {
   display: none;
 }
 
+.navList {
+  display: block;
+}
+
 .navList li {
   display: inline-block;
   padding: 15px 20px;
@@ -157,8 +161,8 @@ footer {
 
 /* =================== RESPONSIVE DESIGN ====================== */
 /* Styles below are for tablet users*/
-
-@media screen and (max-width: 845px) {
+/* 845 */
+@media screen and (max-width: 768px) {
   .multiple img {
     width: 100vw;
     height: 350px;
@@ -196,13 +200,13 @@ footer {
     flex-direction: column;
   }
   .navList {
-    display: flex none;
+    display: none;
     flex-direction: column;
     margin: auto;
     height: 35vh;
     padding: 0;
-    transform: transition 0.3s ease;
-    margin-top: 25px;
+    transform: transition 1s ease;
+    margin-top: 10px;
   }
 
   .navList li {

@@ -44,8 +44,8 @@ input {
   justify-content: flex-end;
 }
 
-.gender label {
-  margin: auto;
+.gender && form label {
+  margin-left: 0;
 }
 
 textarea {
@@ -63,4 +63,27 @@ textarea {
 button {
   padding: 20px;
   margin: auto;
+}
+
+@media screen and (max-width: 425px) {
+  form label {
+    margin-left: 0;
+  }
+
+  .gender {
+  }
+
+  .gender label {
+    margin: 0;
+  }
+
+  .gender input {
+    margin-right: 167px;
+  }
+
+  textarea {
+    width: 415px;
+    margin-left: 3px;
+    border-radius: 5px;
+  }
 }
